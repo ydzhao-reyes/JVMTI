@@ -24,7 +24,7 @@ void  JNICALL callbackClassFileLoadHook(jvmtiEnv *jvmti,
 
       //为新的class字节码数据区分配JVM内存
       error = (*jvmti)->Allocate(jvmti, size, new_class_data);
-
+      //里面的数据是不固定的，为了避免影响将其全部置0
       memset(*new_class_data, 0, size);
 
 
@@ -40,6 +40,10 @@ void  JNICALL callbackClassFileLoadHook(jvmtiEnv *jvmti,
         } else {
           (*new_class_data)[i] = class_data[i];
         }
+      }
+      error = (*jvmti)->Deallocate(jvmti,class_data);
+      if(error != JVMTI_ERROR_NONE){
+        printf(stderr, "ERROR: Unable to free old space");
       }
     }
 }
