@@ -1,1 +1,2 @@
-replaceAgent.c和libreplaceAgent.so是内存管理的agent，测试类为TestMain。
+ex：replaceAgent.c和libreplaceAgent.so是内存管理的agent，测试类为TestMain。
+更换参数vm options -agentpath:（填写本地代码路径）/jvmti_agent/src/main/resource/libthreadWatcher.so 中的.so文件即可加载不同的动态库。

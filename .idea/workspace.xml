@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c09dd058-1c99-43af-9f5a-c67c9a4b4c76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/MyAgent.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/libreplaceAgent.so" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/libreplaceAgent.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/replaceAgent.c" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/replaceAgent.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/cpp/replaceAgent.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cpp/replaceAgent.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/libreplaceAgent.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/libtestagent.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/make.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jvmti_agent/main/cpp/makeC.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/libtestagent.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/make.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cpp/makeC.sh" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,35 +38,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="2" />
+          <entry key="c" value="3" />
           <entry key="class" value="1" />
           <entry key="cpp" value="3" />
           <entry key="iml" value="1" />
           <entry key="java" value="9" />
+          <entry key="properties" value="1" />
+          <entry key="readme" value="1" />
           <entry key="sh" value="2" />
-          <entry key="so" value="3" />
+          <entry key="so" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C++" value="5" />
+          <entry key="C++" value="6" />
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="9" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1233" />
+          <entry key="c" value="1241" />
           <entry key="cpp" value="36" />
           <entry key="java" value="964" />
+          <entry key="readme" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C++" value="1269" />
+          <entry key="C++" value="1277" />
           <entry key="JAVA" value="964" />
+          <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -82,27 +91,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/cpp/replaceAgent.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="249">
+              <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/memoryManger.c">
+        <entry file="file://$PROJECT_DIR$/src/main/cpp/threadWatcher.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="1425">
+              <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -121,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="270">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="e#387#388#0" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
@@ -132,6 +136,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="105" lean-forward="true" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThreadMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -141,22 +154,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/make.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestAgentVMAttacher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="60" selection-start-line="9" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/cpp/makeC.sh">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -172,8 +175,11 @@
     <findStrings>
       <find>locate</find>
       <find>attach</find>
-      <find>Agent_OnAttach</find>
       <find>stderr</find>
+      <find>jni</find>
+      <find>new_class_data_len</find>
+      <find>name</find>
+      <find>Agent_OnAttach</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -207,8 +213,10 @@
         <option value="$PROJECT_DIR$/src/main/cpp/Test.cpp" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestAgentVMAttacher.java" />
-        <option value="$PROJECT_DIR$/src/main/cpp/replaceAgent.c" />
         <option value="$PROJECT_DIR$/src/main/cpp/memoryManger.c" />
+        <option value="$PROJECT_DIR$/src/main/cpp/replaceAgent.c" />
+        <option value="$PROJECT_DIR$/src/main/cpp/threadWatcher.c" />
+        <option value="$PROJECT_DIR$/readme" />
       </list>
     </option>
   </component>
@@ -263,13 +271,6 @@
               <item name="jvmti_agent" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="callback" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="jvmti_agent" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="jvmti_agent" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="cpp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -278,6 +279,13 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jvmti_agent" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jvmti_agent" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -289,13 +297,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539691303007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539769704737" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resrouce" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -339,7 +352,7 @@
     <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.TestMain" />
       <module name="jvmti_agent" />
-      <option name="VM_PARAMETERS" value="-agentpath:$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so" />
+      <option name="VM_PARAMETERS" value="-agentpath:$PROJECT_DIR$/src/main/resource/libthreadWatcher.so" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.*" />
@@ -389,12 +402,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539595311974</updated>
       <workItem from="1539595316763" duration="2527000" />
-      <workItem from="1539652944018" duration="14590000" />
+      <workItem from="1539652944018" duration="18768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17117000" />
+    <option name="totallyTimeSpent" value="21295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -415,7 +428,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -480,12 +493,6 @@
     <entry file="file://$PROJECT_DIR$/jvmti_agent.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/libtestagent.so">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/libreplaceAgent.so">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/cpp/make.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -496,13 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/Test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -517,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestAgentVMAttacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -531,10 +524,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/memoryManger.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/libreplaceAgent.so">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/libTest.so">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/libtestagent.so">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/replaceAgent.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="93" column="3" lean-forward="true" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/cpp/threadWatcher.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="105" lean-forward="true" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#387#388#0" expanded="true" />
             <element signature="e#436#437#0" expanded="true" />
@@ -542,17 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/memoryManger.c">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/cpp/replaceAgent.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
